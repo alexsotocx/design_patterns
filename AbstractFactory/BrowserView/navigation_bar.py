@@ -12,4 +12,7 @@ class NavigationBar(AbsNavigationBar):
     selected = position
     print("Concrete implementation {items}, selected item {selected}".format(
       items=self.items, selected=self.selected))
-
+  
+  def draw_self(self):
+    return "Drawing Browser Navigation Bar {items}, selected item {selected}".format(
+      items=self.items, selected=self.selected)
