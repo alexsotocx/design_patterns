@@ -1,6 +1,6 @@
-from BrowserView.text_field import TextField
-from BrowserView.navigation_bar import NavigationBar
-from UI_factory import UIFactory
+from browserview.text_field import TextField
+from browserview.navigation_bar import NavigationBar
+from ui_factory import UIFactory
 
 class BrowserFactory(UIFactory):
   def create_text_box(self, text):

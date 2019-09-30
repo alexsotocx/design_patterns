@@ -1,7 +1,7 @@
-from AbstractNavigationBar import NavigationBar as AbsNavigationBar
+from abstract_navigation_bar import AbstractNavigationBar
 
 
-class NavigationBar(AbsNavigationBar):
+class NavigationBar(AbstractNavigationBar):
   selected = 0
 
   def __init__(self, items):

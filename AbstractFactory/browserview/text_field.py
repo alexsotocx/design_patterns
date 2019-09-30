@@ -1,6 +1,6 @@
-from AbstractTextView import TextView
+from abstract_textview import AbstractTextview
 
-class TextField(TextView):
+class TextField(AbstractTextview):
   focus = False
   
   def __init__(self, text):

@@ -1,4 +1,4 @@
-class NavigationBar:
+class AbstractNavigationBar:
   items = []
 
   def __init__(self, items):
