@@ -1,5 +1,5 @@
-from BrowserView.factory import BrowserFactory
-from MobileView.factory import MobileFactory
+from browserview.factory import BrowserFactory
+from mobileview.factory import MobileFactory
 
 def create_factory(ui_kind):
   if ui_kind == "mobile":

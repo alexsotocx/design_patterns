@@ -1,5 +1,5 @@
-from mobile_view.text_field import TextInput
-from mobile_view.navigation_bar import MobileNavigationBar
+from mobileview.text_field import TextInput
+from mobileview.navigation_bar import MobileNavigationBar
 from ui_factory import UIFactory
 
 class MobileFactory(UIFactory):
