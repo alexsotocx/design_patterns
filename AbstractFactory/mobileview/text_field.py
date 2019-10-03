@@ -1,10 +1,9 @@
 from abstract_textview import AbstractTextview
 
-class TextInput(AbstractTextview):
-  focus = False
-  
+class TextInput(AbstractTextview): 
   def __init__(self, text):
     super().__init__(text)
+    self.focus = False
     
   def on_click(self):
     print("on tap")

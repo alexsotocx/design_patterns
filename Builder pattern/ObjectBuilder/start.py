@@ -14,6 +14,7 @@ computer = DesktopComputerAssembler() \
 
 assert(computer.calculate(5, '-', 2) == 3)
 assert(computer.calculate(3, '+', 2) == 5)
+print(computer.specs())
 try:
     computer.calculate(3, '*', 2)
 except:

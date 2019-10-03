@@ -1,10 +1,9 @@
 from abstract_textview import AbstractTextview
 
 class TextField(AbstractTextview):
-  focus = False
-  
   def __init__(self, text):
     super().__init__(text)
+    self.focus = False
     
   def on_click(self):
     print("Focus!")

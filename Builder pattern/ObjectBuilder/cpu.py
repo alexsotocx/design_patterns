@@ -1,7 +1,4 @@
 class CPU:
-    frequency = None
-    instruction_set = None
-
     def __init__(self, frequency, instruction_set):
         self.frequency = frequency
         self.instruction_set = instruction_set

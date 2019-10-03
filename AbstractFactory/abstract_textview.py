@@ -1,6 +1,4 @@
-class AbstractTextview:
-  text = ''
-  
+class AbstractTextview:  
   def __init__(self, text):
     self.text = text
     

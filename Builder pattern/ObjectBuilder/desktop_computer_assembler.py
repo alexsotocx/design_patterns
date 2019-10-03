@@ -1,20 +1,10 @@
+from computer import Computer
 from cpu import CPU
 from motherboard import MotherBoard
 from memory import RAM
 
 
-class Computer:
-    cpu = None
-    motherboard = None
-    ram = None
-
-    def calculate(self, op1, operation, op2):
-        return self.cpu.execute(op1, operation, op2)
-
-
 class DesktopComputerAssembler:
-    __computer = None
-
     def __init__(self):
         self.__computer = Computer()
 

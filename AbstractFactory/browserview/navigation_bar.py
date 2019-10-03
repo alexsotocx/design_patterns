@@ -2,8 +2,6 @@ from abstract_navigation_bar import AbstractNavigationBar
 
 
 class NavigationBar(AbstractNavigationBar):
-  selected = 0
-
   def __init__(self, items):
     super().__init__(items)
     self.selected = 0
