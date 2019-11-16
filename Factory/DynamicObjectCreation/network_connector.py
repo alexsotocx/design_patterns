@@ -10,6 +10,7 @@ class NetworkConnectorAdapter:
         if connector_type == "TCP":
             return TcpAdapter("3000", "localhost")
         return None
+
     @staticmethod
     def __env_url():
         return "http://my.service.com/"

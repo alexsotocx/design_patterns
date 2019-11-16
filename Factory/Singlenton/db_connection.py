@@ -10,7 +10,7 @@ class DatabaseConnection:
     @staticmethod
     def __create():
         connection = DatabaseConnection()
-        
+
         connection.port = 5432
         connection.ip = 'localhost'
         connection.database = 'database'

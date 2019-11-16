@@ -7,4 +7,3 @@ other_method_connection = DatabaseConnection.create()
 
 if other_method_connection == connection:
     print("They are the same")
-

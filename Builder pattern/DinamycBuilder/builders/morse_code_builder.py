@@ -79,6 +79,7 @@ class MorseCodeBuilder(Builder):
     def transform_letter(self, letter):
         self.__add_char(MorseCodeBuilder.upper_case(letter), self.__letter_dic)
 
+    @staticmethod
     def upper_case(letter):
         num = ord(letter)
         num = (((1 << 10) - 1) - (1 << 5)) & num
